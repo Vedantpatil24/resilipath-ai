@@ -9,10 +9,11 @@
 * **Resilience Reasoning:** Utilizes Chain-of-Thought AI to explain the logic behind re-routing decisions.
 * **SDG 12.3 Focused:** Prioritizes the reduction of food and material loss.
 * **Cloud-Native Architecture:** Fully deployed on Google Cloud Run.
-* 🧠 Approach and Logic
+  
+### 🧠 Approach and Logic
 The core logic of ResiliPath AI is built on Resilience Reasoning. Unlike traditional logistics software that merely tracks delays, our approach uses Gemini 3 Flash to perform Chain-of-Thought analysis on multifaceted transit data. This allows the system to not just identify a problem, but to "reason" through geopolitical, weather, and labor data to provide an actionable Dynamic Optimization Plan (DOP).
 
-⚙️ How it Works
+### ⚙️ How it Works
 Data Ingestion: The system pulls real-time shipment ledgers and fleet capacity data.
 
 Disruption Detection: A monitoring layer flags anomalies such as port strikes, severe weather, or infrastructure failure.
@@ -21,7 +22,7 @@ AI Optimization: The flagged data is sent to the Gemini 3 Flash engine with a sp
 
 Strategic Output: The dashboard displays a prioritized rerouting plan (e.g., Sea-to-Air pivot) designed to minimize food and material loss.
 
-📝 Assumptions
+### 📝 Assumptions
 Connectivity: Assumes stable internet access for real-time API calls to Google Gemini.
 
 Data Consistency: Assumes that logistics ledgers provided follow standard CSV or JSON formatting.
