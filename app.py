@@ -21,7 +21,7 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-st.title("🌐 ResiliPath AI: Resilient Logistics Engine")
+st.title("ResiliPath AI", help="A resilient logistics optimization engine powered by Gemini.")
 st.markdown("### Google Solution Challenge 2026 | Smart Supply Chains (SDG 12)")
 
 # Initialize Gemini 3 Flash Client
