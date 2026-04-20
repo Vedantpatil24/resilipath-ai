@@ -1,5 +1,6 @@
-# 🌐 ResiliPath AI: Resilient Logistics Engine
-### *Google Solution Challenge 2026 | Smart Supply Chains (SDG 12.3)*
+ResiliPath AI: Resilient Logistics Engine
+Virtual: PromptWars Submission | Smart Supply Chain Vertical
+Originally developed for Google Solution Challenge 2026 (SDG 12.3)
 
 **ResiliPath AI** is a dynamic optimization engine designed to preemptively detect, flag, and mitigate global supply chain disruptions. By leveraging **Gemini 3 Flash**, the system analyzes multifaceted transit data to execute real-time route adjustments, minimizing resource waste and ensuring the integrity of critical logistics corridors.
 
