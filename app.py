@@ -37,7 +37,7 @@ def get_ai_client():
     return genai.Client(api_key=api_key)
 
 client = get_ai_client()
-MODEL_ID = "gemini-2.0-flash"
+MODEL_ID = "gemini-1.5-flash"
 
 # --- LIVE CLOUD DB INGESTION (INTERNAL DATA) ---
 @st.cache_data(ttl=60)
