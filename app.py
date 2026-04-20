@@ -44,7 +44,7 @@ MODEL_ID = "gemini-2.0-flash"
 def load_live_shipments() -> pd.DataFrame:
     try:
         # ⚠️ REPLACE WITH YOUR ACTUAL GOOGLE SHEET ID ⚠️
-        sheet_id = https://docs.google.com/spreadsheets/d/1-rqM-_dN1Bho_6ABF_1cHeMpoXr9n7H9cDC2QpVd-9M/edit?usp=sharing
+        sheet_id = "1-rqM-_dN1Bho_6ABF_1cHeMpoXr9n7H9cDC2QpVd-9M"
         csv_url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/export?format=csv"
         return pd.read_csv(csv_url)
     except Exception as e:
